@@ -37,37 +37,9 @@
                     return ('Something very wrong has happened')
                 }
             }
-            function playRound(playerSelection, computerSelection){
-                // Finding the Winner
-                if(playerSelection === computerSelection){
-                    return ('Its a Draw of '+randomOption+'. Try Again!!')
-                }
-                else if(playerSelection === 'rock' && computerSelection === 'scissors'){
-                    return ('You win. Rock beats Scissors')
-                }
-                else if(playerSelection === 'paper' && computerSelection === 'rock'){
-                    return ('You win. Paper beats Rock')
-                }
-                else if(playerSelection === 'scissors' && computerSelection === 'paper'){
-                    return ('You win. Scissors beats Paper')
-                }
-                // Finding the Losers
-                else if(playerSelection === 'scissors' && computerSelection === 'rock'){
-                    return ('You lose!!. Rock beats Scissors')
-                }
-                else if(playerSelection === 'rock' && computerSelection === 'paper'){
-                    return ('You lose!!. Paper beats Rock')
-                }
-                else if(playerSelection === 'paper' && computerSelection === 'scissors'){
-                    return ('You lose!!. Scissors beats Paper')
-                }
-                else{
-                    return ('Something very wrong has happened')
-                }
-            }
             // function game(){
             //     // 
-            }
+            // }
             // Constants
             const options = ['rock', 'paper', 'scissors'];
             // const playerSelection = 'rock'; 
