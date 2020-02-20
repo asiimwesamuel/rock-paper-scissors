@@ -43,7 +43,8 @@
             // Constants
             const options = ['rock', 'paper', 'scissors'];
             // const playerSelection = 'rock'; 
-            const playerSelection = options[Math.floor(Math.random()*options.length)] 
+            // const playerSelection = options[Math.floor(Math.random()*options.length)] 
+            const playerSelection = prompt('Whats your choice.?', '').toLowerCase();
             const computerSelection = computerPlay(options);
             // playRound();
             console.log(playRound(playerSelection, computerSelection));
